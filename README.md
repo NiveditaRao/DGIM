@@ -60,7 +60,7 @@ Instead	of	maintaining	1	or 2 buckets of	each size, we allow	either r-1 or	r	buc
 * Error	is	at	most	O(1/r)
 * By picking r appropriately,	we can tradeoff	between	number of	bits we	store	and	the error.
 
-# Acknowledgement
+## Acknowledgement
 http://people.cs.vt.edu/badityap/classes/cs5614-Fall14/lectures/lecture-14.pdf                                
 Mining of Massive Datasets Jure Leskovec,Stanford Univ.,Anand Rajaraman,Milliway Labs,Jeffrey D. Ullman,Stanford Univ.
 http://www.ques10.com/p/2870/explain-dgim-algorithm-for-counting-ones-in-a-wi-1/
