@@ -47,12 +47,12 @@ While creating buckets, the following rules are taken care of -
    - If there are now three buckets of size 1, combine the oldest two into a bucket of size 2.
    - If there are now three buckets of size 2, combine the oldest two into a bucket of size 4. And so on…
 
-# Querying 
+## Querying 
 To estimate the number of 1’s in the most recent N bits:
 1. Sum the sizes of all buckets but the last.
 2. Add in half the size of the last bucket. As we don’t know how many 1’s of the last bucket are still within the window.
 
-# Evaluation
+## Evaluation
 Solution gives approximate answer, never off by 50%, Error factor can	be reduced to	any	fraction > 0,	
 with more complicated	algorithm	and	proportionally more stored bits.
 Instead	of	maintaining	1	or 2 buckets of	each size, we allow	either r-1 or	r	buckets (r > 2)	
